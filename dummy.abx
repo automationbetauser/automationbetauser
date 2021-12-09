@@ -1,1 +1,15 @@
-this is for testing
+---
+exportVersion: "1"
+exportId: "2c971ffb7c325c5f017d097869c21b48"
+name: "action-1"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
