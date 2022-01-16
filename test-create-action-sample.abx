@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "2c97fdb77e2934ab017e4351de4723e4"
+name: "test-create-action-sample"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
