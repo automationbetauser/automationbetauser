@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "2c97be2b7e4d86f8017e61d3c9423405"
+name: "test-anu2"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
