@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "2c97ec8d7e6a109a017e6d8675620bc6"
+name: "test-abx-new"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "anurag"
+  secret:2c97bd167e6a0eaa017e7224f5611bd4: ""
+  secret:2c97ec8d7e6a109a017e72257d3a1ccf: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+memoryInMB: 300
