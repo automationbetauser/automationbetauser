@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "2c9719278438424a01843d0189ce185b"
+name: "abc"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
